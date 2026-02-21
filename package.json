@@ -1,0 +1,54 @@
+{
+  "name": "solafon-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for building bots and interacting with Solana wallet on the Solafon platform",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "solafon-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solafon",
+    "mcp",
+    "model-context-protocol",
+    "solana",
+    "bot",
+    "ai",
+    "claude",
+    "cursor",
+    "vscode"
+  ],
+  "author": "Solafon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Solanafon/solafon-mcp.git"
+  },
+  "homepage": "https://docs.solafon.com/en/docs/mcp-server/overview",
+  "bugs": {
+    "url": "https://github.com/Solanafon/solafon-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
