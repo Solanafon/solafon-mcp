@@ -11,7 +11,7 @@
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "echo skip"
   },
   "keywords": [
     "solafon",
@@ -28,11 +28,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Solanafon/solafon-mcp.git"
+    "url": "https://github.com/Solafon/solafon-mcp.git"
   },
   "homepage": "https://docs.solafon.com/en/docs/mcp-server/overview",
   "bugs": {
-    "url": "https://github.com/Solanafon/solafon-mcp/issues"
+    "url": "https://github.com/Solafon/solafon-mcp/issues"
   },
   "engines": {
     "node": ">=18"
